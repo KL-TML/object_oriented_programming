@@ -23,7 +23,7 @@ class Paperboy
   # Below states all of the instance methods
 
   def quota
-    quota = ((experience % 2) + 50) #quota is 1/2 of your experience, plus 50
+    quota = ((experience / 2) + 50) #quota is 1/2 of your experience, plus 50
     return quota
   end
 
